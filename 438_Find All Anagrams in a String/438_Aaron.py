@@ -66,3 +66,7 @@ class Solution(object):
             #     res.append(last_idx)
 
             return res
+
+if __name__ == "__main__":
+	res = Solution()
+	print(res.findAnagrams("asdfdsfasfdsasdsad", "asd"))
